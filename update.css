@@ -1,3 +1,7 @@
+
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
+
+
 .update{
   background-image: url(update-assets/Rectangle\ 110Street.png);
   padding: 45px 45px;
@@ -55,7 +59,18 @@
   align-content: center;
   align-items: center;
   font-size: 20px;
+  padding: 81px 0px 118px 0px;
 }
+
+.signup-up > h3{
+  color: #000;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .pi{
   font-size: 14px;
   margin-left: 40px;
