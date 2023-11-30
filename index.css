@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/iowanoldst-bt');
+
 .main-div {
     background-image: url('./asset/Rectangle\ 4237.png');
     background-repeat: no-repeat;
@@ -19,12 +20,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 440px;
     text-align: right;
-    margin-left: 100px;
+    margin-left: 100px; */
 }
 .company-name {
     color: #000;
@@ -49,9 +50,48 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
-    height: 36px;
+    /* height: 36px; */
     flex-shrink: 0;
 }
+.shortcut{
+    display: none;
+}
+@media screen and (max-width: 728px) {
+    
+    .nav-link{
+        display: none;
+    }
+    .main-div{
+        background-size: contain;
+    }
+    .hamburgers{
+        gap: 10px;
+    }
+    .company-name{
+        color: #000;
+        font-family: Iowan Old Style;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .shortcut{
+        display: flex;
+    }
+    .kid{
+        color: #FFF;
+        font-family: Iowan Old Style;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 125px;
+    }
+}
+
 /* .background-image {
     display: flex;
     align-self: stretch;

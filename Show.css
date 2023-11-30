@@ -86,3 +86,17 @@
 .sideBar1{
     margin-top: -60px;
 }
+@media screen and (max-width: 728px){
+    .Side {
+        display: none;
+    }
+    .image {
+        width: 203.20px;
+    }
+    .holder {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 250px;
+    }
+    
+}
