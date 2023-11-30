@@ -1,0 +1,178 @@
+
+.footer{
+  background: #000;
+  color: white;
+  padding: 48px 69px;
+}
+
+.footer-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-streetsnap{
+  color: #EAEAEA;
+  font-family: Iowan Old Style;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.follow-us{
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.footer-f{
+  display: flex;
+  justify-content: space-between;
+  gap: 140px;
+}
+
+.footer-f-left{
+  display: flex;
+  gap: 92px;
+}
+
+.product-list{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.product-list > p{
+  display: flex;
+  margin: 0px;
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+
+}
+
+.product-list > label{
+  display: flex;
+  flex-direction: column; 
+  margin: 0px;
+  align-content: flex-start;
+  text-decoration: none;
+  align-items: flex-start;
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; 
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.footer-f-right{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding: 20px 20px;
+
+}
+
+.textarea{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  gap: 23px
+}
+.textarea > textarea{
+  width: 763px;
+  height: 229px;
+  flex-shrink: 0;
+  background-color:  #000;
+  border-color: 1px solid #696969;
+  padding: 22px 26px;
+}
+
+.send-button{
+  display: flex;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  padding: 4.9px 22.3px 5.3px 27px;
+  border: 0.7px solid #FFF;
+  background: #FFF;
+}
+
+.textarea > textarea::placeholder{
+  color: #696969;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.last-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.support > p{
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.card-logos{
+  display: flex;
+  margin: 0%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.last-div-left{
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.last-div-right{
+  color: #FFF;
+  text-align: right;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+
+
