@@ -1,0 +1,80 @@
+.update{
+  background-image: url(update-assets/Rectangle\ 110Street.png);
+  padding: 45px 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.co{
+  color: #EAEAEA;
+  font-size: 109px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.meets{
+  color: #EAEAEA;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: -60px;
+}
+
+.explore{
+  color: #A1A1A1;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: -40px;
+}
+.btn-words{
+  color: #A1A1A1;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin: auto;
+  display: flex;
+
+}
+.btn{
+  background-color: black;
+  text-align: center;
+  width: 170px;
+  height: 44px;
+ 
+} 
+.sign-up{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.pi{
+  font-size: 14px;
+  margin-left: 40px;
+}
+.btn2{
+  display: flex;
+  gap: 0px; 
+  box-shadow: 0px;
+}
+.input{
+  width: 300px;
+  height: 30px;
+  font-size: 15px;
+
+}
+.button{
+  background-color: black;
+  color: white;
+  width: 80px;
+  font-size: 15px;
+  
+}
