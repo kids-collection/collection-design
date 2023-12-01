@@ -42,13 +42,13 @@
   gap: 92px;
 }
 
-.product-list{
+.product-list, .product-list4{
   display: flex;
   flex-direction: column;
   gap: 28px;
 }
 
-.product-list > p{
+.product-list > p, .product-list4 > p{
   display: flex;
   margin: 0px;
   color: #FFF;
@@ -62,7 +62,7 @@
 
 }
 
-.product-list > label{
+.product-list > label, .product-list4 > label{
   display: flex;
   flex-direction: column; 
   margin: 0px;
@@ -174,5 +174,112 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 728px){
+  
+  .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 39px;   
+    padding: 20px; 
+  }
 
+  .footer-f{
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .footer-streetsnap{
+    font-size: 24px;
+
+  }
+
+  .footer-f-left{
+    gap: 30px;
+  }
+
+  .follow-us{
+    font-size: 12.6px;
+  }
+
+  .follow-us-image{
+    width: 106.072px;
+    height: 19.141px;
+    flex-shrink: 0;
+  }
+
+  .footer-header{
+    gap: 39px;
+  }
+
+  .product-list{
+    gap: 8px;
+  }
+
+  .product-list > p{
+    font-size: 18px;
+  }
+
+  .product-list4{
+    display: none;
+  }
+
+  .wears p{
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .textarea > textarea{
+    width: 85%;
+    height: 123px;
+    flex-shrink: 0;
+  }
+
+  .send-button{
+    font-size: 16.8px;
+  }
+
+  .textarea > textarea::placeholder{
+    font-size: 10px;
+  }
+
+  .textarea{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .footer-f-right{
+    padding: 0px;
+  }
+
+  .support{
+    gap: 10px;
+  }
+  .support > p{
+    font-size: 12.6px;
+  }
+
+  .hori-line{
+    width: 100%;
+  }
+
+  .last-div-right{
+    display: none;
+  }
+
+  .last-div{
+    justify-content: center;
+  }
+
+  .card-logos > img{
+    width: 57.6px;
+    /* height: 18.672px; */
+    flex-shrink: 0;
+  }
+
+  .card-logos{
+    margin: 0%;
+    gap: 10px;
+    justify-content: space-between;
+  }
+}
 
