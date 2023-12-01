@@ -93,3 +93,14 @@
   font-size: 15px;
   
 }
+
+@media screen and (max-width: 728px) {
+  .update{
+    width: 447px;
+    height: 180px;
+    /* flex-shrink: -20px; */
+    /* display: flex; */
+    font-size: smaller;
+  }
+
+}
