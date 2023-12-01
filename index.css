@@ -20,12 +20,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /* display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 440px;
     text-align: right;
-    margin-left: 100px; */
+    margin-left: 100px;
 }
 .company-name {
     color: #000;
@@ -57,6 +57,7 @@
     display: none;
 }
 @media screen and (max-width: 728px) {
+    @import url('https://fonts.cdnfonts.com/css/iowanoldst-bt');
     
     .nav-link{
         display: none;
@@ -89,6 +90,7 @@
         align-items: center;
         justify-content: center;
         margin-top: 125px;
+        margin-left: 20px;
     }
 }
 
