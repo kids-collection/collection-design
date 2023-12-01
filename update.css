@@ -4,7 +4,7 @@
 
 .update{
   background-image: url(update-assets/Rectangle\ 110Street.png);
-  padding: 45px 45px;
+  padding: 45px 35px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,11 +28,12 @@
 
 .explore{
   color: #A1A1A1;
+  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: -40px;
+  
 }
 .btn-words{
   color: #A1A1A1;
@@ -48,8 +49,9 @@
 .btn{
   background-color: black;
   text-align: center;
-  width: 170px;
-  height: 44px;
+  /* width: 170px;
+  height: 44px; */
+  border: none;
  
 } 
 .sign-up{
@@ -95,12 +97,84 @@
 }
 
 @media screen and (max-width: 728px) {
+  @import url('https://fonts.cdnfonts.com/css/raleway-5');
   .update{
-    width: 447px;
-    height: 180px;
-    /* flex-shrink: -20px; */
-    /* display: flex; */
-    font-size: smaller;
+    /* font-size: 10px; */
+    /* font-style: normal; */
+    /* width: fit-content; */
+    gap: 35px;
+    display: flex;
+    padding: 45px 0px;
   }
+  .co{
+    font-size: 54.8px;
+    font-weight: 400;
+    /* width: -100px; */
+
+  }
+  .meets{
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .explore{
+    color: #A1A1A1;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -50px;
+  }
+  .btn-words{
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+  }
+  .btn{
+
+    width: 113.5px;
+    height: 27px;
+    border: none;
+  }
+  /* .signup-up {
+    color: #000;
+    font-family: Raleway;
+    font-size: 21.56px;
+    font-style: normal;
+    font-weight: 500;
+  } */
+  .sign {
+    font-size: 21.56px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    color: #000;
+    margin-top: -25px;
+  }
+  .btn2{
+    width: 376.222px;
+    height: 32.879px;
+    flex-shrink: 0;
+  }
+  .button{
+    width: 120px;
+    height: 32.879px;
+    border: none;
+  }
+ .pi{
+  color: #444;
+  font-size: 12.936px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-right: 30px;
+  margin-top: 5px;
+ }
+ 
 
 }
